@@ -19,7 +19,7 @@ export default class AuthController {
             console.log(Number(lat) , Number(lng))
             const restaurant = await places.find({ 'geometry.coordinates':
             { $geoWithin:
-               { $centerSphere: [ [  lng ,  lat ],  0.0004 ]  } } }, {name : 1})
+               { $centerSphere: [ [ Number(lng) ,  Number(lat) ],  0.0004 ]  } } }, {name : 1})
             if (restaurant) {
                 res.json({
                     status: 200,
