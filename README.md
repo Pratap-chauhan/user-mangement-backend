@@ -38,4 +38,4 @@ In .env file db port and server port and url metion , could be change as per req
 cmd: gulp (to run server locally)
 
 ## database 
-I have user mongodb and added the restaurant , you can import restaurant and coordinates in locally mongo for testing purpose.
+I have used mongodb and added the restaurant , you can import restaurant and coordinates in locally mongo for testing purpose.
