@@ -9,7 +9,7 @@ For DataBase :
 
 MongoDb used :
 
-Url (default) : mongodb://localhost:27017/restuarant;
+Url (default) : mongodb://localhost:27017/instasafe;
 
 Steps for Running the project on local Server:
 
